@@ -6,7 +6,7 @@
 
 ```bash
 cd backend
-pnpm install
+pnpm i
 ```
 
 ### 2. Set Up Database
@@ -17,7 +17,7 @@ pnpm install
   ```
 - The default uses SQLite, no extra setup needed.
 
-- Run Prisma migrations to set up the schema:
+- Push prisma schema to database:
   ```bash
   pnpm prisma db push
   ```
@@ -25,13 +25,13 @@ pnpm install
 ### 3. Seed the Database with Sample Quizzes
 
 ```bash
-pnpm exec tsx prisma/seed.ts
+pnpm seed
 ```
 
 ### 4. Start the Backend Server
 
 ```bash
-pnpm run start:dev
+pnpm start:dev
 ```
 
 The backend will run on [http://localhost:3001](http://localhost:3001) by default.
@@ -50,7 +50,7 @@ pnpm install
 ### 6. Start the Frontend Server
 
 ```bash
-pnpm run dev
+pnpm dev
 ```
 
 The frontend will run on [http://localhost:3000](http://localhost:3000) by default.
