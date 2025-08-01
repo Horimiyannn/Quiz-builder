@@ -1,12 +1,20 @@
 # Quiz App
 
+### 1. Clone the Repository and install dependencies
+
+```bash
+git clone <your-repo-url>
+cd quiz
+pnpm i
+```
+
+---
+
 ## Backend Setup
 
-### 1. Install Dependencies
 
 ```bash
 cd backend
-pnpm i
 ```
 
 ### 2. Set Up Database
@@ -40,11 +48,8 @@ The backend will run on [http://localhost:3001](http://localhost:3001) by defaul
 
 ## Frontend Setup
 
-### 5. Install Frontend Dependencies
-
 ```bash
 cd ../frontend
-pnpm install
 ```
 
 ### 6. Start the Frontend Server
