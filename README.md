@@ -3,8 +3,8 @@
 ### 1. Clone the Repository and install dependencies
 
 ```bash
-git clone <your-repo-url>
-cd quiz
+git clone https://github.com/Horimiyannn/Quiz-builder
+cd Quiz-builder
 pnpm i
 ```
 
@@ -36,29 +36,15 @@ cd backend
 pnpm seed
 ```
 
-### 4. Start the Backend Server
+### 4. Start Frontend and Backend Servers
 
 ```bash
-pnpm start:dev
-```
-
-The backend will run on [http://localhost:3001](http://localhost:3001) by default.
-
----
-
-## Frontend Setup
-
-```bash
-cd ../frontend
-```
-
-### 6. Start the Frontend Server
-
-```bash
+cd ..
 pnpm dev
 ```
 
 The frontend will run on [http://localhost:3000](http://localhost:3000) by default.
+The backend will run on [http://localhost:3001](http://localhost:3001) by default.
 
 ---
 
